@@ -12,3 +12,8 @@
     Group: no permission at all
     Other users: all the permissions
 ===> chmod 007 hello
+9/-Write a script that sets the mode of the file hello to this:==> chmod 753 hello
+10/-Write a script that sets the mode of the file hello the same as olleh’s mode.==> chmod --reference=olleh hello
+11/-Create a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.==> chmod -R ugo+X .
+E
+12/-Create a script that creates a directory called my_dir with permissions 751 in the working directory.==> mkdir -m 751 my_dir

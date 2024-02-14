@@ -1,2 +1,2 @@
 #!/bin/bash
-find ls -lt | head -10
+ls -t | head -n 10

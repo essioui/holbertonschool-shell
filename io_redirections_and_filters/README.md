@@ -20,4 +20,5 @@ tail -1 iacta >> iacta
     Output format: One line, one word
     Words should be sorted
  ==> sort | uniq -u
-14/-
+14/-Display lines containing the pattern “root” from the file /etc/passwd==> grep "root" /etc/passwd
+15/-
